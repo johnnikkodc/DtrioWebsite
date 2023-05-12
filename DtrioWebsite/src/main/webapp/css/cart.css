@@ -1,0 +1,67 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 8px;
+	text-align: left;
+	color: white;
+}
+
+td {
+	padding: 8px;
+	text-align: left;
+	color: #874823;
+}
+
+input[type=number] {
+	width: 80px;
+}
+
+th {
+	background-color: #874823;
+}
+
+h2 {
+	text-align: center;
+}
+
+div {
+	text-align: right;
+}
+
+body {
+	font-family: 'Roboto Flex', sans-serif;
+	background-color: #eab676;
+}
+
+#btn_update {
+	background-color: #874823;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+#btn_update:hover {
+	background-color: white;
+	color: #874823;
+}
+
+#btn_delete {
+	background-color: #874823;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+#btn_delete:hover {
+	background-color: #E84320;
+	color: white;
+}

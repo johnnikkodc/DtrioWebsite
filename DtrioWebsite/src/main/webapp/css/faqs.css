@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px 0;
+  font-weight:bold;
+  color:black;
+}
+
+.accordion-wrapper {
+   max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  text-align: left;
+}
+
+.accordion {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin: 10px 0 0;
+  font-size: 20px;
+}
+
+.main-acc {
+box-shadow: 2px 2px 2px 2px #A27B5C;
+  border-radius: 13px 13px 13px 13px;
+  padding: 28px;
+   border: 3px solid black;
+}
+
+.main-acc.one {
+  background: #874823;
+}
+
+
+.main-acc.active {
+  border-top: 3px solid #000000;
+  border-right: 3px solid #000000;
+  border-left: 3px solid #000000;
+  border-bottom: none;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.main-acc:hover {
+  background-color: #ccc;
+}
+
+.sub-acc {
+	color:black;
+  background-color: white;
+  text-decoration: underline;
+  margin: 0;
+   border: none;
+  padding: 18px 28px;
+  
+}
+
+.accordion:after {
+  content: "\002B";
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 28px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 0px 0px  13px 13px;
+  border: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.sub-panel {
+  border: none;
+  color:black;
+  /*   margin: 20px; */
+}
+
+.sub-panel p {
+  padding: 0 18px;
+  margin: 10px 20px;
+}
+
+.accordion.active + .main-panel {
+  /*  background: red; */
+  border: 3px solid #000000;
+  border-radius: 0px 0px  13px 13px;
+box-shadow: 2px 2px 2px 2px #A27B5C;
+}
+
+
