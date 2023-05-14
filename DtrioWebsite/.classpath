@@ -6,22 +6,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Jeff Dela Cruz/Downloads/Download/jar_files (1)/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Jeff Dela Cruz/Downloads/Download/jar_files (1)/javax.mail-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Jeff Dela Cruz/Downloads/Download/javax.servlet-3.0.0.v201112011016-sources.jar/javax.servlet-3.0.0.v201112011016-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Jeff Dela Cruz/Downloads/Download/apache-tomcat-10.0.27/lib/servlet-api.jar"/>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
